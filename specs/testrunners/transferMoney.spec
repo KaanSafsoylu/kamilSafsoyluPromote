@@ -1,4 +1,4 @@
-Specification Heading
+CatchyLabs Money Transfer Operations
 =====================
 
 TC015 - Transfer Money With Correct Details
