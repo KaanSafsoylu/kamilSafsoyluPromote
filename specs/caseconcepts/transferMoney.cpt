@@ -1,0 +1,19 @@
+
+# Go To Transfer Money Screen
+* Click The "transferMoneyButton" Element
+
+# Check That The Transfer Money Screen Opens Correctly
+* Check If Element "senderAccountTxt" Exist
+* Check If Element "receiverAccountTxt" Exist
+* Check If Element "sendAmountInput" Exist
+* Check If Element "sendButton" Exist
+
+# Enter <amountke> As Amount
+* Send <amountke> Value To Element "sendAmountInput"
+* Save The <amountke> To Hashmap As "tranferredMoney"
+
+# Click To The Send Button
+* Click The "sendButton" Element
+* Wait "10" Seconds
+# Check That The Last Transaction Is Containing Transferred Amount
+* Check If Element "lastTransactionTxt" Contains Text "tranferredMoney" in HashMap

@@ -1,0 +1,25 @@
+
+# Go To CatchyLabs URL Address
+* Go To "https://catchylabs-webclient.testinium.com" Address
+* Check If The URL Address Contains The Value "catchylabs-webclient"
+
+# Verify That The Homepage Elements Opens Correctly
+* Check If Element "enterUsernameTxt" Exist
+* Check If Element "enterPasswordTxt" Exist
+* Check If Element "usernameInput" Exist
+* Check If Element "passwordInput" Exist
+* Check If Element "loginButton" Exist
+
+# Login To Account With <email> Username And <password> Password
+* Send <email> Value To Element "usernameInput"
+* Send <password> Value To Element "passwordInput"
+* Click The "loginButton" Element
+
+# Check That The User Has Successfully Logged In
+* Check If Element "logoutButton" Exist
+* Check If Element "moneyTransferButton" Exist
+
+# Check The Credential Error Box
+* Check If Element "wrongCredentials" Exist
+* Check If Element "wrongCredentials" Contains Text "Username or Password Invalid!"
+

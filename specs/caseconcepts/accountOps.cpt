@@ -1,0 +1,29 @@
+
+# Go To My Account Screen
+* Click The "moneyTransferButton" Element
+
+# Check That The My Account Page Opens Correctly
+* Check If Element "myAccountTxt" Exist
+* Check If Element "accountNameTxt" Exist
+* Check If Element "creationTimeTxt" Exist
+* Check If Element "amountTxt" Exist
+* Check If Element "transferMoneyButton" Exist
+* Check If Element "addMoneyButton" Exist
+* Check If Element "editAccountButton" Exist
+
+# Go To Edit Account Screen
+* Click The "editAccountButton" Element
+
+# Check That The Edit Account Page Opens Correctly
+* Check If Element "editAccPopUp" Exist
+* Check If Element "editAccNameInput" Exist
+* Check If Element "updateButton" Exist
+
+# Change Account Name To <newName>
+* Send <newName> Value To Element "editAccNameInput"
+* Click The "updateButton" Element
+* Save The <newName> To Hashmap As "changedName"
+
+# Check That The Account Name Changed To The Given Value
+* Check If Element "givenAccountNameTxt" Contains Text "changedName" in HashMap
+

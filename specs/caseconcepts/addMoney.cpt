@@ -1,0 +1,33 @@
+
+# Go to the Add Money Screen
+* Click The "addMoneyButton" Element
+
+# Check That The Add Money Screen Opens Correctly
+* Check If Element "cardNumberInput" Exist
+* Check If Element "cardHolderInput" Exist
+* Check If Element "expiryDateInput" Exist
+* Check If Element "cvvInput" Exist
+* Check If Element "AmountInput" Exist
+* Check If Element "addButton" Exist
+
+# Enter <cardNumber> as Card Number
+* Send <cardNumber> Value To Element "cardNumberInput"
+
+# Enter <cardHolder> as Card Holder Name
+* Send <cardHolder> Value To Element "cardHolderInput"
+
+# Enter <expiryDate> as Expiry Date
+* Send <expiryDate> Value To Element "expiryDateInput"
+
+# Enter <cvvInput> as Cvv Number
+* Send <cvvInput> Value To Element "cvvInput"
+
+# Enter <amount> In The Amount Of Money To Send
+* Send <amount> Value To Element "AmountInput"
+* Save The <amount> To Hashmap As "sendedAmount"
+
+# Click To The Add Button
+* Click The "addButton" Element
+
+# Check That The Last Transaction Is Containing Added Amount
+* Check If Element "lastTransactionTxt" Contains Text "sendedAmount" in HashMap
