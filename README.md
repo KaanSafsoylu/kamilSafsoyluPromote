@@ -14,6 +14,7 @@ You can find information about the project below.
 #### Environment Description:
 
 <ul>
+  <li style="color:red;">If you want to examine the scenarios on excel, you can click the <code>CatchyLabs_Scenarios.xlsx</code> file in project. </li>
   <li style="color:red;">In the BaseTest class, specify the browser you want to run the test with the “BROWSER” parameter (If you give the mac parameter on a windows machine, it will get an error because the OS is automatically pulled from the system).</li>
   <li style="color:red;">You can go to the Elements class to examine the elements.</li>
   <li style="color:red;">If you go to <code>specs/caseconcepts</code> directory, you can view the scenario-based flows of the tests.</li>
