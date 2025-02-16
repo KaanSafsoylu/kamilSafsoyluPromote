@@ -54,8 +54,8 @@ public class Elements {
         LOCATORS.put("lastTransactionTxt",By.xpath("(//div[text()='Amount:']/following-sibling::div/div)[1]"));
 
         //Add Money Errors
-        LOCATORS.put("tooShortError",By.xpath("//div[text()='Too Short!']"));
-        LOCATORS.put("tooLongError",By.xpath("//div[text()='Too Long!']"));
+        LOCATORS.put("tooShortError",By.xpath("//div[contains(text(),'Too short')]"));
+        LOCATORS.put("tooLongError",By.xpath("//div[contains(text(),'Too long')]"));
         LOCATORS.put("requiredError",By.xpath("//div[text()='Required']"));
         LOCATORS.put("wrongDateError",By.xpath("//div[text()='Wrong date. Please give a correct date']"));
         LOCATORS.put("amountMustBeNumberError",By.xpath("//div[contains(text(),'amount must be a `number` type')]"));
